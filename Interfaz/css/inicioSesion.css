@@ -1,0 +1,86 @@
+
+.menu{
+    justify-content: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    
+}
+
+.logo img{
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #EF2C63;
+}
+
+.titulo{
+    font-family: 'Forum', cursive;
+    padding-top: 15%;
+    margin-left: 19%;
+}
+
+.titulo1{
+    padding-top: 7%;
+    font-family: 'Forum', cursive;
+    margin-left: 19%;
+}
+
+.subtitulo{
+    font-family: 'Forum', cursive;
+}
+
+.subtitulo1{
+    margin-left: 19%;
+}
+
+img{
+    height: 50%;
+}
+
+form{
+    align-items: center;
+}
+
+.campo1{
+    border: none;
+    border-radius: 25px;
+    width: 500px;
+    background-color: #F2F2F2;
+    margin-left: 10%;
+}
+
+.campo2{
+    margin-left: 10%;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 25px;
+}
+
+.texto{
+    color: rgba(201, 24, 74, 0.6);
+}
+
+.texto:hover{
+    color:#EF2C63;
+}
+
+.btn1{
+    width: 500px;
+    border-radius: 30px;
+    background-color:  rgba(201, 24, 74, 0.35);
+    color: #000;
+    border: none;
+}
+
+.btn1:hover{
+    background-color:rgba(201, 24, 74, 0.50);
+}

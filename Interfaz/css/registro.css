@@ -1,0 +1,31 @@
+.campo3{
+    border: none;
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    
+}
+
+.btnRegistro{
+   
+    border-radius: 30px;
+    background-color:  rgba(201, 24, 74, 0.35);
+    color: #000;
+    border: none;
+}
+
+.btnRegistro:hover{
+    background-color:rgba(201, 24, 74, 0.50);
+}
+
+.form-select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.date-input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+}

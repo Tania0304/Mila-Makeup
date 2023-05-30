@@ -1,0 +1,155 @@
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EF2C63;
+}
+
+.navbar a:hover{
+    color: #EF2C63;
+}
+
+.menu1 a:hover{
+    color: #EF2C63;
+}
+
+.menu1 i:hover{
+    color: #EF2C63;
+}
+
+/* barra de navegacion 1 y 2 */
+.nav1 {
+    font-size: small;
+    background-color: rgba(201, 24, 74, 0.1);
+    color: rgba(201, 24, 74, 0.6);
+    padding: 0%;
+}
+.nav1 i{
+    color: rgba(201, 24, 74, 0.6);
+}
+.nav1 a{
+    color: rgba(201, 24, 74, 0.6);
+}
+
+.logo img{
+    width: 200px;
+}
+
+.menu1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: small;
+}
+
+.icon1{
+    display: flex;
+}
+
+.compra{
+    padding-right: 10px;
+    color: #380D20;
+    
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(201, 24, 74, 0.6);
+    border-radius: 20px;
+    padding: 5px;
+    height: 27px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: transparent;
+    height: 25px;
+    width: 150px;
+    color:  rgba(201, 24, 74, 0.6);;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .shadow{
+    box-shadow: 0px 0.5px 1px rgba(3, 11, 255, 0.25);
+  }
+
+
+/* enunciado categorias */
+.enunciado{
+    font-family: 'Dancing Script', cursive;
+    color: #380D20;
+    font-size: 40px;
+}
+
+/* carrucel de categorias */
+.carousel-item img {
+    width: 190px; 
+    height: 190px;
+    object-fit:fill; 
+  }
+
+/* ejemplos de maquillaje */
+.imgejemplos{
+    width: 353px;
+    height: 401px;
+}
+
+.ejemplos{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* footer */
+.logo2{
+    width: 302px;
+}
+
+.linkfooter{
+    font-family: 'Forum', cursive;
+    color: #380D20;
+}
+
+.footer1{
+    /* display: flex; */
+    font-size: small;
+    background-color: rgba(201, 24, 74, 0.1);
+}
+
+.footer12{
+    display: flex;
+}
+
+.iconosfooter{
+    display: flex;
+    color: #380D20;
+}
+
+.iconoscolor{
+    color: #380D20;
+}
+
+.subtfooter{
+    font-style:unset;
+}
+
+.footer13{
+    text-align: center;
+    font-size: x-small;
+}
+
