@@ -1,0 +1,32 @@
+.listas{
+    font-family: 'Forum', cursive;
+}
+
+.enlace div{
+    text-decoration: none;
+    color: black;
+}
+
+.imagenes{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.btnPedido{   
+    border-radius: 30px;
+    border-color: rgba(239, 44, 99, 0.7);
+    background-color:  #fff;
+    color: rgba(239, 44, 99, 0.7);
+    font-family: 'Forum', cursive;
+    width: 70%;
+    font-size: small;
+}
+
+.btnPedido:hover{
+    background-color:rgba(201, 24, 74, 0.50);
+    border-color: rgba(201, 24, 74, 0.50);
+}

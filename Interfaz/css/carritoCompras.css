@@ -1,0 +1,60 @@
+.contenido{
+    font-family: 'Forum', cursive;
+}
+
+.titulo{
+    font-size: larger;
+}
+
+.producto{
+    width: 126.4px;
+    height: 100.8px;
+}
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+
+
+.inputIncrement{
+    width: 18%;
+    border: none;
+    background-color: #F2F2F2;
+}
+
+.icon{
+    padding-right: 10px;
+    color: #380D20;
+    
+}
+
+
+.btn1{
+    width: 60%;
+    border-radius: 30px;
+    background-color:  rgba(201, 24, 74, 0.35);
+    color: #000;
+    border: none;
+    font-family: 'Forum', cursive;
+    
+}
+
+.btn1:hover{
+    background-color:rgba(201, 24, 74, 0.50);
+}
+
+
+.btn2{
+    width: 20%;
+    border-radius: 30px;
+    background-color:  rgba(201, 24, 74, 0.35);
+    color: #000;
+    border: none;
+    font-family: 'Forum', cursive;
+    
+}
+
+.btn2:hover{
+    background-color:rgba(201, 24, 74, 0.50);
+}

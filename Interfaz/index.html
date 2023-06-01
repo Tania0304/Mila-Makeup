@@ -57,16 +57,16 @@
                     </div>
                     
                     <div class="col text-center op1">
-                        <a class="nav-link" href="#">MAQUILLAJE</a>
+                        <a class="nav-link" href="/maquillaje.html">MAQUILLAJE</a>
                     </div>        
                     <div class="col">                    
-                        <a class="nav-link" href="#">CUIDADO DE LA PIEL</a>
+                        <a class="nav-link" href="/cuidadoPiel.html">CUIDADO DE LA PIEL</a>
                     </div>
                     <div class="col">
                         <a class="nav-link" href="/conocenos.html">CONÓCENOS</a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="nav-link">
+                        <a href="/carritocompras.html" class="nav-link">
                             <i class=" compra fa-sharp fa-solid fa-cart-shopping"></i>
                             COMPRAS
                         </a>
@@ -81,10 +81,38 @@
     </div>
 
     <!--Carrucel de categorias-->
-    <div class="container text-center">
-        <h2 class="enunciado mt-4 mb-4">Nuestras categorías</h2>
+    <div class="container-fluid text-center">
+        <h2 class="enunciado mt-4 mb-4">Algunas de nuestras categorías</h2>
     </div>
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+   
+    <div class="container-fluid carrusel">
+        <div class="row  justify-content-center">
+            <div class="col colCarr">
+                <a href="/maquillaje.html" class="enlace"><img src="/img/delineador1.png" class="d-block rounded-circle" alt="Imagen 1">
+                <p class="ejemplos text-center pt-2" >Delineadores</p></a>
+            </div>
+            <div class="col colCarr">
+                <a href="#" class="enlace"><img src="/img/producto3.jpeg" class="d-block rounded-circle" alt="Imagen 1">
+                <p class="ejemplos text-center pt-2" >Primers</p></a>
+            </div>
+            <div class="col colCarr">
+                <a href="#" class="enlace"><img src="/img/sombra4.png" class="d-block rounded-circle" alt="Imagen 1">
+                <p class="ejemplos text-center pt-2" >Sombras</p></a>
+            </div>
+            <div class="col colCarr">
+                <a href="#" class="enlace"><img src="/img/tonico.png" class="d-block rounded-circle" alt="Imagen 1">
+                <p class="ejemplos text-center pt-2" >Tonicos</p></a>
+            </div>
+            <div class="col colCarr">
+                <a href="#" class="enlace"><img src="/img/producto4.jpeg" class="d-block rounded-circle" alt="Imagen 1">
+                <p class="ejemplos text-center pt-2" >Brochas</p></a>
+            </div>
+            
+        </div>
+    </div>
+   
+      
+    <!-- <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/img/sombra4.png" class="d-block rounded-circle" alt="Imagen 1">
@@ -102,7 +130,7 @@
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </button>
-    </div>
+    </div> -->
 
     <!-- banner secundario -->
     <div class="container-fluid ms-0 ps-0 me-0 pe-0 mt-5 mb-5">
@@ -187,4 +215,10 @@
     
 
 </body>
+<script>
+    // Inicializar el carrusel
+    var carousel = new bootstrap.Carousel(document.getElementById('myCarousel'), {
+      interval: 2000  // Cambia el intervalo de tiempo entre las imágenes
+    });
+  </script>
 </html>

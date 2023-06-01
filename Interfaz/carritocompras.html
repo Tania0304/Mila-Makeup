@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- estilo.css -->
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/conocenos.css">
+    <link rel="stylesheet" href="/css/carritoCompras.css">
 
 </head>
 <body>
@@ -80,18 +80,56 @@
                 </div>
         </div>
     </header>
+    <!-- contenido -->
     <main>
-        <div class="container-fluid text-center contenido">
+        <div class="container-fluid text-center contenido mb-4">
             <div class="row pt-5">
-                <p class="h1">¿Quiénes somos?</p>
+                <p class="h2">Carrito de Compras</p>
             </div>
-            <div class="row ms-5 me-5 mb-5 p-5 h5">
-                <p>Somos una empresa colombiana y tienda Online de venta de productos de belleza y cuidado para la piel, buscando siempre llevarle productos de calidad a nuestros clientes.</p>
-                <p> Mila MAKEUP tiene como meta ser uno de los mercados Online de productos de belleza mas importante en la industria colombiana, buscando permanentemente introducir productos nuevos al mercado, dando oportunidad a productos locales e internacionales y dar a conocer sus marcas.</p>
+        </div>
+        <div class="table-responsive  ms-5 me-5 ">
+            <table class="table table-sm contenido  text-center">
+                <thead>
+                  <tr>
+                    <th scope="col"> </th>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Subtotal</th>
+                    <th scope="col"> </th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider text-center ">
+                  <tr>
+                    <th scope="row"><img class="producto justify-content-center" src="/img/primer3.png"></th>
+                    <td class="vertical-align-middle">GLITTER PRIMER</td>
+                    <td class="vertical-align-middle">$21.800</td>
+                    <td class="vertical-align-middle"><div>
+                        
+                        <input class="inputIncrement" type="number" id="numero" value="0">
+                        
+                      </div>
+                    </td>
+                    <td class="vertical-align-middle">$43.600</td>
+                    <td class="vertical-align-middle"><a class="icon"><i class="fa-solid fa-trash"></i></a></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="container-fluid text-end mb-5">
+            <div class="row ms-5 me-3">
+                <div class="col-9"></div>
+                <div class="col-3 ">
+                    <a href="#" class=" mt-2 button btn1 btn btn-primary campo2 ">Actualizar carrito</a>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-center">
+                <a href="/descCarrito.html" class=" mt-2 button btn2 btn btn-primary campo2 ">Finalizar compra</a>
             </div>
         </div>
     </main>
         <!-- footer -->
+        <footer class="w-100 me-0 ">
         <div class="row footer1 me-0">
             <div class="col-3 pt-4">
                 <img src="/img/logo_marca-removebg-preview.png" alt="Mila makeup" class="logo2">
@@ -136,13 +174,23 @@
         </div>
     <!-- </div> -->
     
-   
-    <footer class="w-100 me-0">
-        
         <div class="row text-center footer1 pb-3 pt-2 me-0">
             <p class="footer13 mb-0 pb-0 me-0">Mila MAKEUP todos los derechos reservados</p>
         </div>
         
     </footer>
 </body>
+<script>
+    function increment() {
+      var input = document.getElementById("numero");
+      input.value = parseInt(input.value) + 1;
+    }
+
+    function decrement() {
+        var input = document.getElementById("numero");
+        if (input.value > 0) {
+            input.value = parseInt(input.value) - 1;
+        }
+    }
+</script>
 </html>

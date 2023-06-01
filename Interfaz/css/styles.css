@@ -104,6 +104,31 @@ a:hover{
     object-fit:fill; 
   }
 
+  .rounded-circle{
+    width: 180px;
+    height: 180px;
+  }
+
+  .carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .colCarr{
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .enlace{
+    color: rgba(0, 0, 0, 0.88);
+  }
+
+  /* .carrusel img {
+    max-width: 100%;
+    max-height: 100%;
+  } */
 /* ejemplos de maquillaje */
 .imgejemplos{
     width: 353px;
@@ -152,4 +177,5 @@ a:hover{
     text-align: center;
     font-size: x-small;
 }
+
 

@@ -23,28 +23,30 @@
     border-radius: 30px;
   }
 
-.btnUsuario{
-    border-radius: 30px;
-    background-color:  rgba(201, 24, 74, 0.35);
+.btnProductos{
+    border-radius: 10px;
+    background-color:  rgba(201, 24, 74, 0.1);
     color: #000;
     border: none;
-    font-size: 13px;
-    width: 100%;
+    font-size: 15px;
+    width: 150px;
+    font-family: 'Forum', cursive;
+    height: 45px;
 }
 
-.btnUsuario:hover{
+.btnProductos:hover{
     background-color:rgba(201, 24, 74, 0.50);
 }
 
 a{
-    color:#EF2C63;
+    color:rgb(239, 44, 99);
 }
 
 a:hover{
     color:rgb(178, 31, 73);
 }
 
-.h3{
-    font-family: 'Forum', cursive;
-    font-size: 22px;
+.boton-activo{
+    background-color: rgba(239, 44, 99, 0.5);
+    color: #000;
 }

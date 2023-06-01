@@ -1,0 +1,21 @@
+.estadoPedido{
+    font-family: 'Forum', cursive;
+    justify-content: center;
+}
+
+.calendar{
+    width: 190px;
+    height: 35px;
+}
+
+.btnPedido{   
+    border-radius: 30px;
+    background-color:  rgba(201, 24, 74, 0.35);
+    color: #000;
+    border: none;
+    font-family: 'Forum', cursive;
+}
+
+.btnPedido:hover{
+    background-color:rgba(201, 24, 74, 0.50);
+}

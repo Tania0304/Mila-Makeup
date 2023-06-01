@@ -1,0 +1,43 @@
+.subtitulo{
+    font-family: 'Forum', cursive;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 25px;
+}
+
+.producto{
+    width: 126.4px;
+    height: 100.8px;
+}
+
+.table{
+    border: none;
+    border-color: transparent;
+    font-family: 'Forum', cursive;
+}
+
+.caja1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlace{
+    color: rgba(201, 24, 74, 0.6);
+}
+
+.enlace:hover{
+    color: #EF2C63;
+}
+
+.campo4{
+    width: 100%;
+}
+
+.inde{
+    font-size: small;
+}
